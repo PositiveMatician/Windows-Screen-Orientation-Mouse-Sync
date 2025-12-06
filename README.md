@@ -37,7 +37,7 @@ It tracks the current state using temporary lockfiles with a custom extension (`
 ## 🛠️ Installation & Setup
 
 ### Step 1: Create Raw Accel Profiles
-The script relies on 4 specific JSON profile files. You must create these manually in your Raw Accel folder:
+The script relies on 4 specific JSON profile files. You must create these manually in your Raw Accel folder (I will add my config files in 'multimonitortool json files' for reference or to be downloaded and used as is):
 
 1.  Open **Raw Accel**.
 2.  Set **Rotation** to `0`. Click **Apply**.
@@ -46,7 +46,7 @@ The script relies on 4 specific JSON profile files. You must create these manual
     * **Rotation 90** ➔ Save as `portrait.json`
     * **Rotation 180** ➔ Save as `landscape flipped.json`
     * **Rotation 270** ➔ Save as `portrait flipped.json`
-(I will add my config files in 'multimonitortool json files' for reference)
+
 
 ### Step 2: Configure the Script
 1.  Download `ToggleRotation.ps1` from this repository.
